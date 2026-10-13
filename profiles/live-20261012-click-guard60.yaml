@@ -1,0 +1,87 @@
+roi:
+  left: 401
+  top: 289
+  width: 816
+  height: 544
+fps: 60
+width: 600
+bird_mode: tiger
+bird_hsv_low:
+- 5
+- 95
+- 130
+bird_hsv_high:
+- 25
+- 255
+- 255
+pipe_hsv_low:
+- 35
+- 90
+- 65
+pipe_hsv_high:
+- 85
+- 255
+- 190
+gravity: 710.38
+jump: -248.58494
+pipe_speed: 139.6
+cooldown: 0.18
+latency: 0.065
+margin: 0
+ceiling: 0.11
+floor: 0.7
+template_threshold: 0.7
+auto_restart: false
+input_mode: click
+planner: reachability
+beam_width: 200
+bin_y: 2
+bin_v: 8
+search_dt: 0.03333333333333333
+use_numba: true
+pending_actions: true
+freeze_physics: true
+world_ceiling_px: 0
+world_floor_px: 356
+input_effect_latency: 0.065
+body_centroid: false
+hitbox_margin_px: 0
+jump_click_fraction:
+- 0.5
+- 0.3
+fast_click: true
+lock_window_geometry: true
+expected_window_rect: null
+collision_frames: 60
+input_timestamp_origin: start
+safety_shield: true
+shield_veto_only: true
+fast_space: false
+auto_start: true
+window_title_contains: CUỘC ĐUA
+windows_timer_1ms: false
+advance_sparse_velocity: true
+near_term_fallback: false
+refine_failed_plan: false
+align_input_cooldown: true
+calibrate_hitbox: false
+hitbox_half_width: 26
+hitbox_half_height: 20
+planner_budget_ms: 1
+input_call_ms: 0
+atlas_dt: 0.03333333333333333
+atlas_dy: 1
+atlas_dv: 4
+reconstruct_entering_gate: true
+gate_width_px: 86
+reaction_interval: 0.025
+shield_current_top_veto: true
+top_guard_margin_px: 3
+top_guard_coast_horizon: 0.12
+
+confirm_input: true
+input_latency_min: 0.016
+input_latency_max: 0.14
+input_confirmation_timeout: 0.20
+
+reaction_guard_ms: 60

@@ -1,0 +1,7 @@
+opencv-python>=4.10,<6
+numpy>=2,<3
+mss>=9,<11
+PyAutoGUI==0.9.54
+pynput>=1.7,<2
+PyYAML>=6,<7
+numba>=0.68,<0.69

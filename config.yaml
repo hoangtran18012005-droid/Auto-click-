@@ -1,0 +1,68 @@
+roi:
+  left: 402
+  top: 290
+  width: 814
+  height: 671
+fps: 45
+width: 600
+bird_mode: tiger
+bird_hsv_low:
+- 5
+- 95
+- 130
+bird_hsv_high:
+- 25
+- 255
+- 255
+pipe_hsv_low:
+- 35
+- 90
+- 65
+pipe_hsv_high:
+- 85
+- 255
+- 205
+gravity: 1100.0
+jump: -310.0
+pipe_speed: 160.0
+cooldown: 0.18
+latency: 0.04
+margin: 7
+ceiling: 0.11
+floor: 0.7
+template_threshold: 0.7
+auto_restart: false
+input_mode: click
+planner: legacy
+use_numba: false
+pending_actions: false
+freeze_physics: false
+body_centroid: false
+hitbox_margin_px: 0
+latency_pipeline: false
+confirm_input: false
+state_observer: false
+track_gates: false
+separate_actions: false
+adaptive_beam: false
+lock_window_geometry: false
+fast_click: false
+capture_pipeline: false
+minimum_body_width: 0
+minimum_body_height: 0
+safety_shield: false
+image_impulse_reset: false
+robust_states: []
+windows_timer_1ms: false
+rank_suffix: false
+reconstruct_entering_gate: false
+reaction_guard_ms: 0
+fast_space: false
+shield_veto_only: false
+advance_sparse_velocity: false
+near_term_fallback: false
+refine_failed_plan: false
+align_input_cooldown: false
+hitbox_half_width: null
+hitbox_half_height: null
+calibrate_hitbox: false

@@ -1,0 +1,8 @@
+# Các bản đã kiểm thử code trong đợt này, Python 3.12 x64.
+opencv-python==5.0.0.93
+numpy==2.5.4
+mss==10.2.0
+PyAutoGUI==0.9.54
+pynput==1.8.2
+PyYAML==6.0.3
+numba==0.68.0

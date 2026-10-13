@@ -1,0 +1,26 @@
+# Python/runtime
+.venv/
+__pycache__/
+*.py[cod]
+*.pyd
+*.nbc
+*.nbi
+.pytest_cache/
+.test-*/
+
+# Local gameplay data and machine-specific artifacts
+logs/
+screenshots/
+exports/
+evaluation/
+backups/
+models/
+blocker_tools/
+REPORT*.md
+BLOCKERS.md
+PERFORMANCE_REPORT.md
+TEST_REPORT.md
+*.zip
+*.log
+.env
+.env.*
